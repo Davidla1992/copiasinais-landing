@@ -1,0 +1,35 @@
+git clone https://github.com/tu-usuario/copiasinais-landing.git
+cd copiasinais-landing
+# Copia tus archivos dentro de esta carpeta
+git add .
+git commit -m "Landing page inicial"
+git push origin main
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cópia Sinais</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Bem-vindo à Cópia Sinais</h1>
+    <p>Receba sinais de trade diretamente no seu Telegram</p>
+    <a href="https://t.me/seu_bot_telegram" class="btn">Entrar no Canal</a>
+  </header>
+
+  <section>
+    <h2>Por que usar?</h2>
+    <ul>
+      <li>Sinais em tempo real</li>
+      <li>Alta taxa de acerto</li>
+      <li>Fácil de usar</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Cópia Sinais. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
